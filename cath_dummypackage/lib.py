@@ -47,6 +47,10 @@ def clean_data(data):
     data.loc[:, 'Frequency'] = data['Frequency'].map(drows)
     return data
 
+def try_me():
+    name  = input("Hi ! Nice to meet you, what's your name ?")
+    return f'I knew it, ok bye {name} !'
+
 
 if __name__ == '__main__':
     # For introspections purpose to quickly get this functions on ipython

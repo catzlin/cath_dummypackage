@@ -11,6 +11,7 @@ setup(name='cath_dummypackage',
       packages=find_packages(),
       test_suite = 'tests',
       # include_package_data: to install data from MANIFEST.in
+      install_requires=requirements,
       include_package_data=True,
       scripts=['scripts/cath_dummypackage-run'],
       zip_safe=False)

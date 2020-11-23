@@ -8,7 +8,7 @@ import pandas as pd
 
 # Import from cath_dummypackage
 import cath_dummypackage
-from cath_dummypackage.lib import clean_data
+from cath_dummypackage.lib import try_me
 
 if __name__ == '__main__':
     usage = '%(prog)s'
