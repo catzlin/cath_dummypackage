@@ -48,7 +48,8 @@ def clean_data(data):
     return data
 
 def try_me():
-    name  = input("Hi ! Nice to meet you, what's your name ?")
+    print("Hi ! Nice to meet you, what's your name ?")
+    name  = input()
     return f'I knew it, ok bye {name} !'
 
 
